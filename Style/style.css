@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(/fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-italic;
+    src: url(/fonts/Poppins-BoldItalic.ttf);
+}
+header img {
+    position: relative;
+    width: 250px;
+}
+
+
+#Top-Menu {
+        position: relative;
+        padding-bottom: 20px;
+}
+
+#banner-principal {
+    width: 100%;
+    position: relative;
+}
+
+#titulo-principal{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Poppins-Bold;
+    padding-bottom: 20px;
+}
+
+#titulo-principal span {
+    color: blue;
+}
+
+.titulo-servico{
+    
+    font-family: Poppins-italic;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(18, 18, 65);
+    
+
+}
+
+.imagem-servicos{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
