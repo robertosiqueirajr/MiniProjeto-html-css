@@ -7,20 +7,73 @@
     font-family: Poppins-italic;
     src: url(/fonts/Poppins-BoldItalic.ttf);
 }
+
+
+body {
+    margin: 0px;
+    
+}
+
+main{
+    padding-bottom: 500px;
+}
+
+footer{
+    background-color: brown;
+    width: 100%;
+    height: 50px;
+}
+
+footer p{
+    text-align: center;
+    padding-top: 10px;
+}
+
+header{
+    position: fixed;
+    background-color: rgba(3, 3, 3, 0.416);
+    width: 100%;
+    height: 100px;
+    top: 0px;
+
+}
+
 header img {
-    position: relative;
+    position: fixed;
     width: 250px;
 }
 
 
 #Top-Menu {
-        position: relative;
-        padding-bottom: 20px;
+        
+        position: fixed;
+        right: 100px;
+        top: 40px;
 }
 
+#Top-Menu a{
+        background-color: rgb(23, 29, 29);
+        color: white;
+        font-family: Poppins-italic;
+        border-radius: 15px;
+        text-decoration: none;
+        padding: 10px;
+        margin-left: 5px;
+    
+}
+
+#Top-Menu a:hover{
+    background-color: crimson;
+    padding: 12px;
+
+}
+
+
 #banner-principal {
+    position: static;
+    margin-top: 100px;
     width: 100%;
-    position: relative;
+    
 }
 
 #titulo-principal{
@@ -28,16 +81,60 @@ header img {
     text-align: center;
     font-family: Poppins-Bold;
     padding-bottom: 20px;
+    position: relative;
 }
 
 #titulo-principal span {
     color: blue;
 }
 
+#entre-contato{
+    position: absolute;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    top: 1100px;
+    background-color: rgb(168, 8, 8);
+}
+
+#entre-contato h2{
+    text-align: center;
+    color: aliceblue;
+}
+
+#entre-contato input{
+    position: absolute;
+    background-color: aqua;
+    width: 250px;
+    border: 0px solid ;
+
+}
+
+
+.menu-servicos{
+    
+    background-color: rgba(235, 227, 228, 0.529);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 50px;
+    position: relative;
+    float: left;
+    width: 400px;
+    margin-left: 75px;
+    box-sizing: border-box;  
+
+}
+
+.menu-servicos:hover{
+    background-color: rgb(214, 75, 86);
+    transform: scale(1.1);
+}
+
 .titulo-servico{
     
+    position: relative;
     font-family: Poppins-italic;
-    font-size: 20px;
+    font-size: 20px;    
     text-align: center;
     text-transform: uppercase;
     color: rgb(18, 18, 65);
@@ -46,10 +143,11 @@ header img {
 }
 
 .imagem-servicos{
-    margin-left: auto;
-    margin-right: auto;
+    padding-left:50px;
+    width: 250px;
     
 }
 
-
-
+.texto-servicos{
+    text-align: justify;
+}
